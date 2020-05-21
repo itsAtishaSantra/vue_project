@@ -24,14 +24,14 @@
                 this.$router.replace({ name: "login" });
             }
         },}
-        // {methods: {
-        //     setAuthenticated(status) {
-        //         this.authenticated = status;
-        //     },
-        //     logout() {
-        //         this.authenticated = false;
-        //     }
-        // }}
+        methods: {
+             setAuthenticated(status) {
+                this.authenticated = status;
+             },
+             logout() {
+                 this.authenticated = false;
+             }
+         }}
     }
 </script>
 
